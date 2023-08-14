@@ -1,5 +1,5 @@
 /*
-]=====> zyd<=====[ ]=====>  085158667440<=====[
+]=====> zyd<=====[ ]=====>  6288287918914<=====[
 */
 const {
    WAConnection,
@@ -50,7 +50,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:zidan\n' // GANTI NAMA LU
             + 'ORG:KEV;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285158667440:+62 831-4162-1181\n' // GANTI NOMOR LU
+            + 'TEL;type=CELL;type=VOICE;waid=6288287918914:+6285158667440\n' // GANTI NOMOR LU
             + 'END:VCARD'
 // UDAH SEGITU KONSOL KEBAWAH BIARIN AJA
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Ramlan.json'))
@@ -456,7 +456,7 @@ kev.logger.level = 'warn'
 console.log(banner.string)
    kev.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-	console.log(color('[','white'), color('!','red'), color(']','white'), color(' FOLLOW IG KEVIN_APTA_KUN'))
+	console.log(color('[','white'), color('!','red'), color(']','white'), color(' FOLLOW IG m.zidanehabsy'))
 })
 
 	kev.on('credentials-updated', () => {
